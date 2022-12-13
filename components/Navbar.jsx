@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
@@ -35,6 +35,29 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
+
+          <div className="md:hidden">
+            <AiOutlineMenu size={30} />
+          </div>
+        </div>
+      </div>
+
+      <div className="fixed left-0 top-0 w-full h-screen bg-black/70">
+        <div className="fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-300">
+          <div>
+            <div className="flex w-[100%] items-center justify-between">
+              <Image
+                src="/../public/assets/logo.png"
+                alt="/"
+                width="85"
+                height="35"
+              />
+
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
+                <AiOutlineClose />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

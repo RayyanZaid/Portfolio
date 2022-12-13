@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
+import { FaLinkedinIn, FaGithubSquare, FaYoutube } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
@@ -55,6 +56,51 @@ const Navbar = () => {
 
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                 <AiOutlineClose />
+              </div>
+            </div>
+            <div className="border-b border-gray-400 my-4">
+              <h2 className="w-[85%] md:w-[90%] py-4 font-bold text-blue-400">
+                Feel free to explore!
+              </h2>
+            </div>
+          </div>
+
+          <div className="py-4 flex flex-col">
+            {/* For the menu */}
+            <ul>
+              <Link href="">
+                <li className="py-4 text-sm">Home</li>
+              </Link>
+              <Link href="">
+                <li className="py-4 text-sm">About</li>
+              </Link>
+              <Link href="">
+                <li className="py-4 text-sm">Skills</li>
+              </Link>
+              <Link href="">
+                <li className="py-4 text-sm">Projects</li>
+              </Link>
+              <Link href="">
+                <li className="py-4 text-sm">Contact</li>
+              </Link>
+            </ul>
+
+            <div className="pt-40">
+              <p className="uppercase tracking-widest text-purple-700">
+                Let's Connect
+              </p>
+              {/* For the icons */}
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <FaLinkedinIn />
+              </div>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <FaGithubSquare />
+              </div>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <FaYoutube />
+              </div>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <AiOutlineMail />
               </div>
             </div>
           </div>

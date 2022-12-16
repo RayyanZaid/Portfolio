@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaYoutube } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+
 const Navbar = () => {
   const [onNav, setNav] = useState(false);
 
@@ -27,11 +29,11 @@ const Navbar = () => {
                 Home
               </li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b font-bold">
-                About
-              </li>
-            </Link>
+
+            <li className="ml-10 text-sm uppercase hover:border-b font-bold">
+              <Link href="/#about">About</Link>
+            </li>
+
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b font-bold">
                 Skills
@@ -49,6 +51,7 @@ const Navbar = () => {
             </Link>
           </ul>
 
+          {/* Keeps the 3 bars hidden on non-mobile devices */}
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={30} />
           </div>
@@ -86,7 +89,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-gray-400 my-4">
-              <h2 className="w-[85%] md:w-[90%] py-4 font-bold text-blue-400">
+              <h2 className="w-[85%] md:w-[90%] py-4 font-bold text-[#575fd5]">
                 Feel free to explore!
               </h2>
             </div>
@@ -98,8 +101,18 @@ const Navbar = () => {
               <Link href="">
                 <li className="py-4 text-sm ">Home</li>
               </Link>
-              <Link href="">
-                <li className="py-4 text-sm">About</li>
+              <Link
+                href=""
+                onClick={() =>
+                  window.scrollTo({
+                    top: document.querySelector("#about").offsetTop,
+                    behavior: "smooth",
+                  })
+                }
+              >
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  About
+                </li>
               </Link>
               <Link href="">
                 <li className="py-4 text-sm">Skills</li>
@@ -127,10 +140,10 @@ const Navbar = () => {
                   <FaGithub />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaYoutube />
+                  <AiOutlineMail />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
+                  <BsFillPersonLinesFill />
                 </div>
               </div>
             </div>

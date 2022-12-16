@@ -39,7 +39,7 @@ const Navbar = () => {
                 Skills
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b font-bold">
                 Projects
               </li>
@@ -99,7 +99,9 @@ const Navbar = () => {
             {/* For the menu */}
             <ul>
               <Link href="">
-                <li className="py-4 text-sm ">Home</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm ">
+                  Home
+                </li>
               </Link>
               <Link
                 href=""
@@ -114,12 +116,23 @@ const Navbar = () => {
                   About
                 </li>
               </Link>
+
               <Link href="">
                 <li className="py-4 text-sm">Skills</li>
               </Link>
-              <Link href="">
+
+              <Link
+                href=""
+                onClick={() =>
+                  window.scrollTo({
+                    top: document.querySelector("#projects").offsetTop,
+                    behavior: "smooth",
+                  })
+                }
+              >
                 <li className="py-4 text-sm">Projects</li>
               </Link>
+
               <Link href="">
                 <li className="py-4 text-sm">Contact</li>
               </Link>

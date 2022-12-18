@@ -34,7 +34,7 @@ const Navbar = () => {
               <Link href="/#about">About</Link>
             </li>
 
-            <Link href="/">
+            <Link href="/#skills">
               <li className="ml-10 text-sm uppercase hover:border-b font-bold">
                 Skills
               </li>
@@ -117,7 +117,15 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link href="">
+              <Link
+                href=""
+                onClick={() =>
+                  window.scrollTo({
+                    top: document.querySelector("#skills").offsetTop,
+                    behavior: "smooth",
+                  })
+                }
+              >
                 <li className="py-4 text-sm">Skills</li>
               </Link>
 

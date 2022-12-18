@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import autovolleyImg from "../public/assets/projects/autovolley.png";
 import membershipPortalImg from "../public/assets/projects/membershipPortal.jpg";

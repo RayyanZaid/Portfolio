@@ -12,8 +12,19 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600">Description Part 1</p>
-          <p className="py-2 text-gray-600">Description Part 2</p>
+          <p className="py-2 text-gray-600">
+            Hello! My name is Rayyan and I am a full-stack software developer. I
+            have a strong foundation in computer science principles and have
+            experience building/deploying web and mobile applications using a
+            variety of programming languages and frameworks.
+          </p>
+          <p className="py-2 text-gray-600">
+            In my free time, I enjoy playing and watching both basketball and
+            volleyball, both competitively and recreationally. My love for these
+            sports not only helps me stay active and healthy, but also enhances
+            my ability to work collaboratively with others, think critically
+            under pressure, and be creative in a professional environment.
+          </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my latest projects.

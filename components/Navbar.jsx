@@ -44,11 +44,6 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b font-bold">
-                Contact
-              </li>
-            </Link>
           </ul>
 
           {/* Keeps the 3 bars hidden on non-mobile devices */}
@@ -139,10 +134,6 @@ const Navbar = () => {
                 }
               >
                 <li className="py-4 text-sm">Projects</li>
-              </Link>
-
-              <Link href="">
-                <li className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
 

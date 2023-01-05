@@ -2,7 +2,7 @@ import React from "react";
 import autovolleyImg from "../public/assets/projects/autovolley.png";
 import membershipPortalImg from "../public/assets/projects/membershipPortal.jpg";
 import airlineImg from "../public/assets/projects/airline.jpg";
-import golfFormImg from "../public/assets/projects/airline.jpg";
+import golfFormImg from "../public/assets/projects/golf.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {

@@ -44,6 +44,12 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
+
+            <Link href="https://drive.google.com/file/d/1BtJ8aQ_e1gTWw3OTq8bIT4obiwdtyntw/view?usp=sharing">
+              <li className="ml-10 text-sm uppercase hover:border-b font-bold">
+                Resume
+              </li>
+            </Link>
           </ul>
 
           {/* Keeps the 3 bars hidden on non-mobile devices */}
@@ -93,47 +99,30 @@ const Navbar = () => {
           <div className="py-4 ">
             {/* For the menu */}
             <ul>
-              <Link href="">
-                <li onClick={() => setNav(false)} className="py-4 text-sm ">
+              <Link href="/">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Home
                 </li>
               </Link>
-              <Link
-                href=""
-                onClick={() =>
-                  window.scrollTo({
-                    top: document.querySelector("#about").offsetTop,
-                    behavior: "smooth",
-                  })
-                }
-              >
+              <Link href="/#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   About
                 </li>
               </Link>
-
-              <Link
-                href=""
-                onClick={() =>
-                  window.scrollTo({
-                    top: document.querySelector("#skills").offsetTop,
-                    behavior: "smooth",
-                  })
-                }
-              >
-                <li className="py-4 text-sm">Skills</li>
+              <Link href="/#skills">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Skills
+                </li>
               </Link>
-
-              <Link
-                href=""
-                onClick={() =>
-                  window.scrollTo({
-                    top: document.querySelector("#projects").offsetTop,
-                    behavior: "smooth",
-                  })
-                }
-              >
-                <li className="py-4 text-sm">Projects</li>
+              <Link href="/#projects">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Projects
+                </li>
+              </Link>
+              <Link href="https://drive.google.com/file/d/1BtJ8aQ_e1gTWw3OTq8bIT4obiwdtyntw/view?usp=sharing">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Resume
+                </li>
               </Link>
             </ul>
 

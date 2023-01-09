@@ -5,7 +5,7 @@ import Experiences from "./Experiences";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const SkillsAndExpericnes = () => {
-  const [onSkills, setPage] = useState(true);
+  const [onSkills, setPage] = useState(false);
 
   const handleClick = () => {
     setPage(!onSkills);

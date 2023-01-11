@@ -31,7 +31,11 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-yellow-500 rounded-xl flex items-center justify-center p-4 hover:scale-105 md:hover:scale-125 ease-in duration-300">
-          <Image src={""} className="rounded-xl" alt="/" />
+          <Image
+            src={"../pages/portfolio/favicon.ico"}
+            className="rounded-xl"
+            alt="/"
+          />
         </div>
       </div>
     </div>

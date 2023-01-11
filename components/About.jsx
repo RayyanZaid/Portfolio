@@ -31,7 +31,7 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-blue-500 rounded-xl flex items-center justify-center p-4 hover:scale-105 md:hover:scale-125 ease-in duration-300">
-          <Link rel="icon" href="/portfolio/about.png" />
+          <Link rel="icon" href="/portfolio/tree/gh-pages/assets/about.png" />
         </div>
       </div>
     </div>

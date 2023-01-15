@@ -19,7 +19,7 @@ const Projects = () => {
           <ProjectItem
             title="UCR ACM Membership Portal"
             backgroundImg="membershipPortal.jpg"
-            projectUrl="https://dev-36aqx7acra-wl.a.run.app/"
+            projectUrl="https://github.com/acm-ucr/membership-portal"
             tech="Next JS, Tailwind CSS, Firestore"
           />
           <ProjectItem

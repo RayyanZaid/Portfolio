@@ -13,9 +13,9 @@ const Hero = () => {
 
           <h1 className="py-2">Full-Stack Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[85%] m-auto">
-            A full-stack developer with a focus on backend and databases,
-            skilled in building the back-end systems and databases that power
-            complex software applications.
+            A full-stack developer with a focus on backend development. Skilled
+            in envisioning full-stack systems and databases that power complex
+            software applications.
           </p>
           <div className="flex items-baseline justify-between max-w-[330px] m-auto py-4">
             <a

@@ -15,12 +15,13 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100] bg-gradient-to-r from-cyan-500 to-purple-500 ">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-8">
-        <Image
-          src="/../public/assets/logo.png"
+        <img
+          className="rounded-xl group-hover:opacity-10"
+          src={`/portfolio/assets/logo.png`}
           alt="/"
           width="120"
           height="100"
-        />
+        ></img>
 
         <div>
           <ul className="hidden md:flex">
@@ -75,12 +76,13 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-[100%] items-center justify-between">
-              <Image
-                src="/../public/assets/logo.png"
+              <img
+                className="rounded-xl group-hover:opacity-10"
+                src={`/portfolio/assets/logo.png`}
                 alt="/"
                 width="85"
                 height="35"
-              />
+              ></img>
 
               <div
                 onClick={handleNav}

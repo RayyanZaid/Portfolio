@@ -18,11 +18,11 @@ const About = () => {
             variety of programming languages and frameworks.
           </p>
           <p className="py-2 text-gray-600">
-            In my free time, I enjoy playing and watching both basketball and
-            volleyball, both competitively and recreationally. My love for these
-            sports not only helps me stay active and healthy, but also enhances
-            my ability to work collaboratively with others, think critically
-            under pressure, and be creative in a professional environment.
+            In my free time, I enjoy playing basketball and volleyball, both
+            competitively and recreationally. My love for sports not only helps
+            me stay active and healthy, but also enhances my ability to work
+            collaboratively with others, think critically under pressure, and be
+            creative in a professional environment.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
@@ -30,8 +30,12 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-yellow-500 rounded-xl flex items-center justify-center p-4 hover:scale-105 md:hover:scale-125 ease-in duration-300">
-          <link rel="icon" href="/portfolio/favicon.ico" />
+        <div className="w-full h-auto m-auto shadow-xl shadow-yellow-500 rounded-xl flex items-center justify-center p-4 hover:scale-105 md:hover:scale-110 ease-in duration-500">
+          <img
+            className="rounded-xl group-hover:opacity-10"
+            src={"/portfolio/assets/about.png"}
+            alt="/"
+          ></img>
         </div>
       </div>
     </div>

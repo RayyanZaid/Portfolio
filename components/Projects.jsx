@@ -1,8 +1,4 @@
 import React from "react";
-import autovolleyImg from "../public/assets/projects/autovolley.png";
-import membershipPortalImg from "../public/assets/projects/membershipPortal.jpg";
-import airlineImg from "../public/assets/projects/airline.jpg";
-import golfFormImg from "../public/assets/projects/golf.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -16,25 +12,25 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="AutoVolley"
-            backgroundImg={autovolleyImg}
+            backgroundImg="autovolley.png"
             projectUrl="https://probable-asparagus-426.notion.site/AutoVolley-Fair-Team-Generator-4cf1e7b6665148428b93e0cba2ac7573"
             tech="Available on the App Store!!"
           />
           <ProjectItem
             title="UCR ACM Membership Portal"
-            backgroundImg={membershipPortalImg}
+            backgroundImg="membershipPortal.jpg"
             projectUrl="https://dev-36aqx7acra-wl.a.run.app/"
             tech="Next JS, Tailwind CSS, Firestore"
           />
           <ProjectItem
             title="vJKRR Airlines"
-            backgroundImg={airlineImg}
+            backgroundImg="airline.jpg"
             projectUrl="https://github.com/cs100/final-project-kguli003-jyee048-rlee204-rzaid003"
             tech="QT & c++"
           />
           <ProjectItem
             title="Golf Posture AI"
-            backgroundImg={golfFormImg}
+            backgroundImg="golf.jpg"
             projectUrl="https://probable-asparagus-426.notion.site/Golf-Posture-Project-Github-Links-ced502a4d1d34d699f1d407bee5cd45f"
             tech="Python (Flask Server and sklearn), Dart, & Firebase Storage"
           />

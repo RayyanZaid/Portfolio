@@ -5,9 +5,7 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <h1 className=" tracking-widest uppercase text-[#5651e5] py-8">
-          Projects
-        </h1>
+        <h1 className=" tracking-widest uppercase text-black py-8">Projects</h1>
 
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem

@@ -9,13 +9,12 @@ const Hero = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <h1 className="text-[#575fd5]"> Rayyan Zaid</h1>
+          <h1 className="text-black"> Rayyan Zaid</h1>
 
-          <h1 className="py-2">Full-Stack Developer</h1>
-          <p className="py-4 text-gray-600 sm:max-w-[85%] m-auto">
-            A full-stack developer with a focus on backend development. Skilled
-            in envisioning full-stack systems and databases that power complex
-            software applications.
+          <h1 className="py-8 text-black ">Full-Stack Developer</h1>
+          <p className="py-8 text-black sm:max-w-[85%] m-auto">
+            A full-stack developer with a focus on backend development and
+            Artificial Intelligence
           </p>
           <div className="flex items-baseline justify-between max-w-[330px] m-auto py-4">
             <a
@@ -24,7 +23,7 @@ const Hero = () => {
               rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaLinkedinIn />
+                <FaLinkedinIn style={{ color: "black" }} />
               </div>
             </a>
             <a
@@ -33,19 +32,19 @@ const Hero = () => {
               rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaGithub />
+                <FaGithub style={{ color: "black" }} />
               </div>
             </a>
-            <Link href="/#contact">
+            <a href="mailto:rayyanzaid0401@gmail.com">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <AiOutlineMail />
+                <AiOutlineMail style={{ color: "black" }} />
               </div>
-            </Link>
-            <Link href="https://drive.google.com/file/d/1b8L5mNsv-WseKEMa66EgAQNuZql5fXgs/view?usp=sharing">
+            </a>
+            {/* <Link href="https://drive.google.com/file/d/1b8L5mNsv-WseKEMa66EgAQNuZql5fXgs/view?usp=sharing">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsFillPersonLinesFill />
+                <BsFillPersonLinesFill style={{ color: "black" }} />
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

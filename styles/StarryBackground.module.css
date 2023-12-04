@@ -1,0 +1,30 @@
+.starry-background {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  background: #000; /* Dark background for stars */
+  overflow: hidden;
+}
+
+.starry-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  box-shadow: /* Add multiple box-shadows for stars */ 1px 1px white,
+    2px 2px white, /* ... Add as many as you want */ 1000px 1000px white; /* Randomly place them */
+  animation: twinkle 1s infinite;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  } /* Adjust for twinkle effect */
+}

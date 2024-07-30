@@ -4,10 +4,10 @@ import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
+      <div className="mx-auto px-2 py-16" style={{ maxWidth: "80%" }}>
         <h1 className=" tracking-widest uppercase text-black py-8">Projects</h1>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-16">
           <ProjectItem
             title="AutoVolley"
             backgroundImg="autovolley.png"
@@ -21,10 +21,10 @@ const Projects = () => {
             tech="Next JS, Tailwind CSS, Firestore"
           />
           <ProjectItem
-            title="vJKRR Airlines"
-            backgroundImg="airline.jpg"
+            title="MelodyMetrics"
+            backgroundImg="melodymetrics.png"
             projectUrl="https://github.com/cs100/final-project-kguli003-jyee048-rlee204-rzaid003"
-            tech="QT & c++"
+            tech="Python, React, Jetson Nano"
           />
           <ProjectItem
             title="Golf Posture AI"

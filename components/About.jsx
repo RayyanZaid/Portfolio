@@ -7,9 +7,9 @@ const About = () => {
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-black">About</p>
-          <h2 className="py-4 text-black">Who I Am</h2>
-          <p className="py-2 text-black">
+          <h1 className=" tracking-widest uppercase text-black py-8">About</h1>
+          <h2 className="py-4 text-black text-3xl">Who I Am</h2>
+          <p className="py-2 text-black text-2xl">
             Hello! My name is Rayyan and I am an aspiring researcher and
             developer with a focus on Machine Learning. I have a strong
             foundation in deep learning and have experience building/deploying

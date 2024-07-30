@@ -13,41 +13,41 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] bg-gradient-to-r from-cyan-500 to-purple-500 ">
+    <div className="fixed w-full h-25 shadow-xl z-[100] bg-gradient-to-r from-cyan-500 to-purple-500 ">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-8">
         <img
           className="rounded-xl group-hover:opacity-10"
           src={`/portfolio/assets/logo.png`}
           alt="/"
-          width="120"
+          width="100"
           height="100"
         ></img>
 
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b font-bold">
+              <li className="ml-10 text-2xl uppercase hover:border-b font-bold">
                 Home
               </li>
             </Link>
 
-            <li className="ml-10 text-sm uppercase hover:border-b font-bold">
+            <li className="ml-10 text-2xl uppercase hover:border-b font-bold">
               <Link href="/#about">About</Link>
             </li>
 
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b font-bold">
+              <li className="ml-10 text-2xl uppercase hover:border-b font-bold">
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b font-bold">
+              <li className="ml-10 text-2xl uppercase hover:border-b font-bold">
                 Projects
               </li>
             </Link>
 
             <Link href="https://drive.google.com/file/d/19wkGPyrjCWVRBrz3SftXG8x-EtirC-DX/view?usp=sharing">
-              <li className="ml-10 text-sm uppercase hover:border-b font-bold">
+              <li className="ml-10 text-2xl uppercase hover:border-b font-bold">
                 Resume
               </li>
             </Link>
@@ -102,27 +102,27 @@ const Navbar = () => {
             {/* For the menu */}
             <ul>
               <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-2xl">
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-2xl">
                   About
                 </li>
               </Link>
               <Link href="/#skills">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-2xl">
                   Skills
                 </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-2xl">
                   Projects
                 </li>
               </Link>
               <Link href="https://drive.google.com/file/d/19wkGPyrjCWVRBrz3SftXG8x-EtirC-DX/view?usp=sharing">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-2xl">
                   Resume
                 </li>
               </Link>

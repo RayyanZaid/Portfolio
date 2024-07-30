@@ -23,7 +23,7 @@ const Projects = () => {
           <ProjectItem
             title="MelodyMetrics"
             backgroundImg="melodymetrics.png"
-            projectUrl="https://github.com/cs100/final-project-kguli003-jyee048-rlee204-rzaid003"
+            projectUrl="https://youtu.be/FporKnT6By0"
             tech="Python, React, Jetson Nano"
           />
           <ProjectItem

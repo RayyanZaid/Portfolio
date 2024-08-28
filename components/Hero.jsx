@@ -11,11 +11,21 @@ const Hero = () => {
         <div>
           <h1 className="text-black text-9xl"> Rayyan Zaid</h1>
 
-          <h1 className="py-8 text-black text-7xl ">Software Developer</h1>
-          <p className="py-8 text-black sm:max-w-[85%] m-auto text-2xl">
-            A full-stack developer with a focus on backend development and
-            Artificial Intelligence
-          </p>
+          <h1 className="py-8 text-black text-4xl">
+            Software Engineer
+            <span
+              style={{
+                background: "linear-gradient(to right, red, yellow)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+              }}
+            >
+              {" "}
+              Jack in the Box
+            </span>
+          </h1>
+
+          <p className="py-8 text-black sm:max-w-[85%] m-auto text-2xl"></p>
           <div className="flex items-baseline justify-between max-w-[330px] m-auto py-4">
             <a
               href="https://www.linkedin.com/in/rayyan-zaid-7b0b35203/"

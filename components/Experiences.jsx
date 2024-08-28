@@ -19,7 +19,7 @@ const Experiences = () => {
           <ExperienceItem
             title="Coding Minds Academy"
             backgroundImg="codingminds.jpg"
-            description="Project Developer"
+            description="Instructor & App Developer"
             timeframe="12/2021 --> Current"
           />
 

@@ -8,8 +8,9 @@ const ProjectItem = ({ title, backgroundImg, tech, projectUrl }) => {
       <img
         className="rounded-xl group-hover:opacity-10"
         src={`/portfolio/assets/projects/${backgroundImg}`}
-        alt="/"
-      ></img>
+        alt={title}
+        style={{ width: "100%", height: "auto" }} // Ensures the image takes up the full width of the container
+      />
 
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <h3 className="md:text-2xl text-white tracking-wider text-center lg:text-4xl">

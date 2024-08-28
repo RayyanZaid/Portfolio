@@ -8,13 +8,21 @@ const About = () => {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <h1 className=" tracking-widest uppercase text-black py-8">About</h1>
-          <h2 className="py-4 text-black text-3xl">Who I Am</h2>
+
           <p className="py-2 text-black text-2xl">
-            Hello! My name is Rayyan and I am an aspiring researcher and
-            developer with a focus on Machine Learning. I have a strong
-            foundation in deep learning and have experience building/deploying
-            web and mobile applications using a variety of programming languages
-            and frameworks.
+            Hi! I'm Rayyan and I'm passionate about Web and Mobile App
+            Development, particularly backend functionality and user data
+            visualization. At my current internship, I use Datadog to create
+            metrics and dashboards to monitor/visualize various integrations
+            within our infrastructure. I also use Typescript with NodeJS to
+            develop our Location Service.
+          </p>
+
+          <p className="py-2 text-black text-2xl">
+            I've also been a lifelong teacher. I've combined my passion for
+            teaching with Computer Science by working at Coding Minds Academy.
+            As an instructor, I teach students Full-Stack Development with AI,
+            USACO, Unity, and coding languages.
           </p>
 
           <Link href="/#projects">
